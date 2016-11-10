@@ -32,7 +32,6 @@ interstellar = media.Movie("Interstellar",
                            "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",  # NOQA
                            "https://www.youtube.com/watch?v=zSWdZVtXT7E")
 
-
 movies = [toy_story,
           avatar,
           the_gladiator,
@@ -40,4 +39,3 @@ movies = [toy_story,
           inception,
           interstellar]
 fresh_tomatoes.open_movies_page(movies)
-#print(media.Movie.__module__)
